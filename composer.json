@@ -12,5 +12,10 @@
       "email": "eng.abdul.rahman19992@gmail.com"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "RandomString\\": "src/RandomString/"
+    }
+  }
 }

@@ -6,7 +6,7 @@ class RandomString
 {
     public static function generateRandomString($length = 10, $charset = '0123456789abcdefghijklmnopqrstuvwxyz-_')
     {
-        $randomString = '';
+        $randomString = 'abd';
         $charsetLength = strlen($charset);
 
         for ($i = 0; $i < $length; $i++) {
